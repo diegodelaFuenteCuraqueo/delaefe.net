@@ -1,0 +1,41 @@
+
+body {
+    background-color: black;
+}
+
+h1 {
+    padding: 10px;
+    text-align: right;
+    color: rgb(200,200,200);
+}
+
+h2 {
+    color: rgb(200,200,200);
+
+    font-size: 16pt;
+
+}
+
+p {
+
+    color: rgb(200,200,200);
+    font-size: 18pt;
+}
+
+.contenedor{
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.copyright{
+
+    font-size: 8pt;
+}
+
+.carta {
+    background-color: black;
+}
