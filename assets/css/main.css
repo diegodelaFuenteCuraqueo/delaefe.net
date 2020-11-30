@@ -1844,7 +1844,7 @@ input, select, textarea {
 			background-color: transparent;
 			border: solid 1px #c9c9c9;
 			border-radius: 12px;
-			width: 4.65em;
+			width: 3.65em;
 			height: 2.65em;
 			display: inline-block;
 			text-align: center;
@@ -2863,7 +2863,7 @@ input, select, textarea {
 		#header nav {
 			position: fixed;
 			right: 2em;
-			top: 2em;
+			top: .2em;
 			z-index: 10000;
 		}
 
