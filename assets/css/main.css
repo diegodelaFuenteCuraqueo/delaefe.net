@@ -2830,7 +2830,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 4em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2849,7 +2849,7 @@ input, select, textarea {
 				display: inline-block;
 				vertical-align: middle;
 			}
-
+ 
 			#header .logo .symbol {
 				margin-right: 0.65em;
 			}
@@ -2946,10 +2946,10 @@ input, select, textarea {
 							opacity: 0;
 						}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) { /* Pantallas máximo 736px cambia*/
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 1.8em 0 0.1em 0 ;
 			}
 
 				#header nav {
@@ -2985,11 +2985,11 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		right: 0;
-		width: 22em;
-		max-width: 80%;
+		width: 18em;
+		max-width: 70%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: rgb(88, 88, 102 );
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3126,7 +3126,7 @@ input, select, textarea {
 	body.is-menu-visible #wrapper {
 		pointer-events: none;
 		cursor: default;
-		opacity: 0.25;
+		opacity: 0.85;
 	}
 
 	body.is-menu-visible #menu {
