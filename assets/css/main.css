@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 /*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	hoja de estilos principal (editada)
 */
 
 html, body, div, span, applet, object,
@@ -2891,7 +2889,7 @@ input, select, textarea {
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: rgba(255, 255, 255, 0.5);
+						background-color: rgba(255, 255, 255, 0.05);
 						border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
@@ -2988,7 +2986,7 @@ input, select, textarea {
 		max-width: 70%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: rgb(88, 88, 102 );
+		background: rgba(88, 88, 96,.93 );
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;

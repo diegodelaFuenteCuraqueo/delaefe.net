@@ -1,4 +1,10 @@
 
+.navbar-brand{ 
+
+  font-family: inherit;
+  
+}
+
 #cuerpo {
     background-color: black;
     background-image: url("https://lh3.googleusercontent.com/DHUFP2fAggWWOekXNGhWt5WfiQWfNkSBeoUGCx_ddiRlN2wR47OJGfe-hqncrVpp8-eBYwbKBGwypA61z59yLWt9nenMJAlf6SZ3wHH9MApxYakfBvm6FfTaqhEqRKevaqhUPkr-4v8=w2400?source=screenshot.guru");
@@ -11,17 +17,19 @@ h1 {
     padding: 10px;
     text-align: right;
     color: rgb(200,200,200);
+    overflow-wrap: break-word;
 }
 
 h2 {
     color: rgb(200,200,200);
-
+    overflow-wrap: break-word;
     font-size: 16pt;
 
 }
 .filtered {
     filter: opacity(70%);
   }
+
 p {
 
     color: rgb(200,200,200);
@@ -65,9 +73,26 @@ p {
     width: 200px;
  }
 
+ a{
+   color:white;
+   font-size: 18px;
+   font-family: inherit;
+ }
+
  .miniaturas:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    animation-name: parpadeoLento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
   }
+
+  @keyframes parpadeoLento {
+    0%  {box-shadow: 0 0 0 0 rgba(189, 192, 255, 0.5);}
+    50% {box-shadow:  0px 0px 10px 10px rgba(189, 192, 255, 0.664);}
+    100%  {box-shadow: 0 0 0 0 rgba(189, 192, 255, 0.5);}
+ }
+
 
   #miFoto{
     width:300px;
@@ -92,5 +117,11 @@ p {
 
   .cartasInicio{
     height: 320px !important;
+
+  }
+
+  .textoCartasInicio{
+    color: white !important;
+    text-shadow: 3px 3px 2px black;
 
   }
