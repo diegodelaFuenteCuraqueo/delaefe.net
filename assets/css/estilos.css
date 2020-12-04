@@ -1,8 +1,34 @@
 
-.navbar-brand{ 
+@font-face {
+    font-family: texturina;
+    src: url("../webfonts/Texturina-VariableFont_opsz,wght.ttf") format("truetype");
+}
 
-  font-family: inherit;
-  
+
+@font-face {
+    font-family: stalker;
+    src: url("../webfonts/Belgrano-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: semicoder;
+    src: url("../webfonts/Semi-Coder-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ateam;
+    src: url("../webfonts/ATeam.ttf") format("truetype");
+}
+
+
+.navbar-brand{
+    font-family:texturina ;
+    font-weight: bold;
+    font-size: 14pt !important;
+    color: rgba(117,127,145,.82);
+
+    text-decoration: none !important;
+
 }
 
 #cuerpo {
@@ -18,22 +44,29 @@ h1 {
     text-align: right;
     color: rgb(200,200,200);
     overflow-wrap: break-word;
+    font-family: stalker !important;
+    text-shadow: 2px 2px rgb(0,0,0) !important;
+    font-size: 18pt;
+    letter-spacing: 3px !important;
 }
 
 h2 {
     color: rgb(200,200,200);
     overflow-wrap: break-word;
     font-size: 16pt;
+    letter-spacing: 3px !important;
 
+    font-family: stalker !important;
 }
 .filtered {
     filter: opacity(70%);
-  }
+}
 
 p {
-
     color: rgb(200,200,200);
-    font-size: 18pt;
+    font-size: 14pt;
+    font-family: Texturina;
+
 }
 
 .contenedor{
@@ -51,50 +84,62 @@ p {
 }
 
 .carta {
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(0,0,0,.2);
+
+    margin-bottom: 40px;
+
 }
 
- #barrasuperior{
-     background-color: rgba(0,0,0,.85);
-     padding: .5rem 1rem;
-     color: white;
-     position: relative;
-     justify-content: space-between;
- }
+#barrasuperior{
+    background-color: rgba(0,0,0,.85);
+    padding: .6rem 1rem;
+    color: white;
+    position: relative;
+    justify-content: space-between;
+}
 
- .container-fluid{
+.container-fluid{
 
     padding-left: 5px;
     padding-right: 5px;
- }
+    margin-bottom: 35px !important;
 
- .miniaturas{
+
+}
+
+.miniaturas{
     height: 200px;
     width: 200px;
- }
+    margin-left: auto;
+    margin-right: auto;
+}
 
- a{
-   color:white;
-   font-size: 18px;
-   font-family: inherit;
- }
+.enlaces {
+    color:lightblue;
+    font-size: 20px;
+    font-family: texturina;
+    font-style: bold;
+    padding: 4px 14px 4px 4px !important;
+    text-decoration: underline;
 
- .miniaturas:hover {
+}
+
+.miniaturas:hover {
     animation-name: parpadeoLento;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 
-  }
+}
 
-  @keyframes parpadeoLento {
+@keyframes parpadeoLento {
     0%  {box-shadow: 0 0 0 0 rgba(189, 192, 255, 0.5);}
     50% {box-shadow:  0px 0px 10px 10px rgba(189, 192, 255, 0.664);}
     100%  {box-shadow: 0 0 0 0 rgba(189, 192, 255, 0.5);}
- }
+}
 
 
-  #miFoto{
+#miFoto{
     width:300px;
     height:300px;
     align-items:center ;
@@ -105,23 +150,29 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
- 
-  }
 
-  .panelDeTexto{
+}
+
+
+#accordion{
+
+    background-color: rgba(0,0,0,.75) !important;
+}
+
+.panelDeTexto{
 
     background-color: rgba(0,0,5,.65);
     padding: 5px 10px;
     border-radius: 10px;
-  }
+}
 
-  .cartasInicio{
+.cartasInicio{
     height: 320px !important;
 
-  }
+}
 
-  .textoCartasInicio{
+.textoCartasInicio{
     color: white !important;
     text-shadow: 3px 3px 2px black;
 
-  }
+}
