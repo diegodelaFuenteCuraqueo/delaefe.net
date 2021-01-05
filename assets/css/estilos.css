@@ -22,10 +22,10 @@
 
 
 .navbar-brand{
-    font-family:texturina ;
+    font-family:stalker ;
     font-weight: bold;
     font-size: 14pt !important;
-    color: rgba(117,127,145,.82);
+    color: rgba(255,255,255,.82);
 
     text-decoration: none !important;
 
@@ -46,7 +46,7 @@ h1 {
     overflow-wrap: break-word;
     font-family: stalker !important;
     text-shadow: 2px 2px rgb(0,0,0) !important;
-    font-size: 18pt;
+    font-size: 1.4em !important;
     letter-spacing: 3px !important;
 }
 
@@ -66,7 +66,7 @@ p {
     color: rgb(200,200,200);
     font-size: 14pt;
     font-family: Texturina;
-
+    text-align:justify;
 }
 
 .contenedor{
@@ -99,10 +99,10 @@ p {
 }
 
 .container-fluid{
-
+    
     padding-left: 5px;
     padding-right: 5px;
-    margin-bottom: 35px !important;
+    margin-bottom: 150px !important;
 
 
 }
